@@ -6,6 +6,7 @@ resource "digitalocean_droplet" "terraform-micro" {
   image  = "ubuntu-18-04-x64"
   name   = "terraform-micro"
   region = "sgp1"
+  count  = 3
   size   = "s-1vcpu-1gb"
   ssh_keys = [
     var.ssh_fingerprint
