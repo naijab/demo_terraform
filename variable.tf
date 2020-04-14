@@ -10,6 +10,13 @@ locals {
     xxx-large = "s-24vcpu-128gb"
     maximum   = "s-32vcpu-192gb"
   }
+  region = {
+    singapore = "sgp1"
+  }
+  image = {
+    ubuntu16 = "ubuntu-16-04-x64"
+    ubuntu18 = "ubuntu-18-04-x64"
+  }
 }
 
 variable "digital_token" {}
