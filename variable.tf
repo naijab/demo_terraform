@@ -10,12 +10,15 @@ locals {
     xxx-large = "s-24vcpu-128gb"
     maximum   = "s-32vcpu-192gb"
   }
-  region = {
+  regions = {
     singapore = "sgp1"
   }
-  image = {
+  images = {
     ubuntu16 = "ubuntu-16-04-x64"
     ubuntu18 = "ubuntu-18-04-x64"
+  }
+  k8s_versions = {
+    latest = "1.16.6-do.2"
   }
 }
 
