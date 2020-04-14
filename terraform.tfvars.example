@@ -1,0 +1,4 @@
+digital_token   = "your digital ocean"
+public_key      = "your file public key ssh"
+private_key     = "your file private key ssh"
+ssh_fingerprint = "your file fingerprint"
